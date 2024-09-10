@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- metas -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- title -->
+    <title>E-commerce Product Page</title>
+    <!-- favicon -->
+    <link
+      rel="shortcut icon"
+      href="./images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./CSS/style.css" />
+  </head>
+  <body>
+    <!-- start of header -->
+    <header>
+      <div class="container">
+        <div class="header">
+          <nav>
+            <div class="mobMenuIcon cursorPointer closed">
+              <img src="./images/icon-menu.svg" alt="nav menu icon" />
+            </div>
+            <ul class="navMenu">
+              <li class="navLink"><a href="#">collections</a></li>
+              <li class="navLink"><a href="#">men</a></li>
+              <li class="navLink"><a href="#">women</a></li>
+              <li class="navLink"><a href="#">about</a></li>
+              <li class="navLink"><a href="#">contact</a></li>
+            </ul>
+          </nav>
+          <div class="logo">
+            <a href="index.html">
+              <img src="./images/logo.svg" alt="website logo" />
+            </a>
+          </div>
+          <div class="account">
+            <div class="cart cursorPointer">
+              <span class="badge">0</span>
+              <img src="./images/icon-cart.svg" alt="shopping cart icon" />
+            </div>
+            <div class="profilePic cursorPointer">
+              <img src="./images/image-avatar.png" alt="profile photo" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- end of header -->
+
+    <!-- start of main section -->
+    <main>
+      <div class="secContainer">
+        <section class="mainSec">
+          <div class="productImgs">
+            <div class="currentImg cursorPointer">
+              <img src="./images/image-product-1.jpg" alt="brown sneakers" />
+            </div>
+            <div class="otherImgs">
+              <div class="img cursorPointer">
+                <img
+                  src="./images/image-product-1.jpg"
+                  alt="brown sneakers thumbnail first image"
+                  class="pImg"
+                />
+                <div class="layer"></div>
+              </div>
+              <div class="img cursorPointer">
+                <img
+                  src="./images/image-product-2.jpg"
+                  alt="brown sneakers thumbnail second image"
+                  class="pImg"
+                />
+                <div class="layer"></div>
+              </div>
+              <div class="img cursorPointer">
+                <img
+                  src="./images/image-product-3.jpg"
+                  alt="brown sneakers thumbnail third image"
+                  class="pImg"
+                />
+                <div class="layer"></div>
+              </div>
+              <div class="img cursorPointer">
+                <img
+                  src="./images/image-product-4.jpg"
+                  alt="brown sneakers thumbnail forth image"
+                  class="pImg"
+                />
+                <div class="layer"></div>
+              </div>
+            </div>
+            <div class="imgControls">
+              <div class="previous cursorPointer">
+                <img
+                  src="./images/icon-previous.svg"
+                  alt="previous arrow icon"
+                />
+              </div>
+              <div class="next cursorPointer">
+                <img src="./images/icon-next.svg" alt="next arrow icon" />
+              </div>
+            </div>
+          </div>
+          <div class="productInfo">
+            <div class="mobContainer">
+              <p class="productHeadline">Sneaker Company</p>
+              <h1 class="productTitle">Fall Limited Edition Sneakers</h1>
+              <p class="productDesc">
+                These low-profile sneakers are your perfect casual wear
+                companion. Featuring a durable rubber outer sole, they’ll
+                withstand everything the weather can offer.
+              </p>
+              <div class="priceInfo">
+                <div class="salePrice">
+                  <span class="currentPrice">$125.00</span>
+                  <span class="sale">50%</span>
+                </div>
+                <div class="original">
+                  <span class="originalPrice">$250.00</span>
+                </div>
+              </div>
+              <div class="cartInfo">
+                <div class="productNumber">
+                  <span class="minus cursorPointer">-</span>
+                  <span class="num">0</span>
+                  <span class="plus cursorPointer">+</span>
+                </div>
+                <button class="addToCart cursorPointer">
+                  <svg width="22" height="20">
+                    <path
+                      d="M20.925 3.641H3.863L3.61.816A.896.896 0 0 0 2.717 0H.897a.896.896 0 1 0 0 1.792h1l1.031 11.483c.073.828.52 1.726 1.291 2.336C2.83 17.385 4.099 20 6.359 20c1.875 0 3.197-1.87 2.554-3.642h4.905c-.642 1.77.677 3.642 2.555 3.642a2.72 2.72 0 0 0 2.717-2.717 2.72 2.72 0 0 0-2.717-2.717H6.365c-.681 0-1.274-.41-1.53-1.009l14.321-.842a.896.896 0 0 0 .817-.677l1.821-7.283a.897.897 0 0 0-.87-1.114ZM6.358 18.208a.926.926 0 0 1 0-1.85.926.926 0 0 1 0 1.85Zm10.015 0a.926.926 0 0 1 0-1.85.926.926 0 0 1 0 1.85Zm2.021-7.243-13.8.81-.57-6.341h15.753l-1.383 5.53Z"
+                      fill="#fff"
+                      fill-rule="nonzero"
+                    />
+                  </svg>
+                  Add to cart
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="alertBox">
+          <p class="alert"></p>
+        </div>
+      </div>
+    </main>
+    <!-- end of main section -->
+
+    <!-- start of lightBox -->
+    <section class="lightBox">
+      <div class="modal">
+        <div class="closeIcon cursorPointer">
+          <svg width="14" height="15" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="m11.596.782 2.122 2.122L9.12 7.499l4.597 4.597-2.122 2.122L7 9.62l-4.595 4.597-2.122-2.122L4.878 7.5.282 2.904 2.404.782l4.595 4.596L11.596.782Z"
+              fill="#fff"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </div>
+        <div class="productImgs">
+          <div class="currentImg">
+            <img src="./images/image-product-1.jpg" alt="brown sneakers" />
+            <div class="controls">
+              <div class="previous cursorPointer">
+                <img
+                  src="./images/icon-previous.svg"
+                  alt="previous arrow icon"
+                />
+              </div>
+              <div class="next cursorPointer">
+                <img src="./images/icon-next.svg" alt="next arrow icon" />
+              </div>
+            </div>
+          </div>
+          <div class="otherImgs">
+            <div class="img cursorPointer">
+              <img
+                src="./images/image-product-1.jpg"
+                alt="brown sneakers thumbnail first image"
+                class="boxImg"
+              />
+              <div class="layer"></div>
+            </div>
+            <div class="img cursorPointer">
+              <img
+                src="./images/image-product-2.jpg"
+                alt="brown sneakers thumbnail second image"
+                class="boxImg"
+              />
+              <div class="layer"></div>
+            </div>
+            <div class="img cursorPointer">
+              <img
+                src="./images/image-product-3.jpg"
+                alt="brown sneakers thumbnail third image"
+                class="boxImg"
+              />
+              <div class="layer"></div>
+            </div>
+            <div class="img cursorPointer">
+              <img
+                src="./images/image-product-4.jpg"
+                alt="brown sneakers thumbnail forth image"
+                class="boxImg"
+              />
+              <div class="layer"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of lightBox -->
+
+    <!-- main script -->
+    <script src="./JS/main.js"></script>
+  </body>
+</html>
