@@ -13,8 +13,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution Link](https://www.frontendmentor.io/solutions/ecommerce-product-page-built-with-html-css-and-js-DC0gq8I0e2)
-- [Live Demo Link](https://emanradwan114.github.io/Ecommerce-product-page/)
+- [Live Demo Link](https://emanradwan11499.github.io/Ecommerce-product-page/)
 
 ### Built with
 
